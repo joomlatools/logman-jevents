@@ -1,0 +1,25 @@
+
+{
+  "name": "joomlatools/plg_logman_jevents",
+  "type": "joomlatools-installer",
+  "license": "GPLv3",
+  "description": "Handles logging of JEvents Forum events",
+  "keywords": [
+    "joomla",
+    "extension",
+    "plugins",
+    "logman",
+    "jevents"
+  ],
+  "homepage": "https://github.com/joomlatools/logman-jevents",
+  "authors": [
+    {
+      "name": "Joomlatools",
+      "email": "info@joomlatools.net",
+      "homepage": "http://www.joomlatools.com"
+    }
+  ],
+  "require": {
+    "joomlatools/installer": "*"
+  }
+}
