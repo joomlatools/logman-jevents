@@ -7,7 +7,7 @@ Plugin for integrating [JEvents](https://www.jevents.net/) with LOGman. [LOGman]
 
 ### Composer
 
-You can install this package using [Composer](https://getcomposer.org/). by simply going to the root directory of your Joomla site using the command line and executing the following command:
+You can install this package using [Composer](https://getcomposer.org/) by simply going to the root directory of your Joomla site using the command line and executing the following command:
 
 ```
 composer require joomlatools/logman-jevents:*
