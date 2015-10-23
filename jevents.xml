@@ -20,6 +20,4 @@
     <config>
         <fields name="params" />
     </config>
-
-    <plugin type="logger" packages="jevents"/>
 </extension>
