@@ -46,4 +46,4 @@ The following JEvents actions are currently logged:
 
 ## Limitations
 
-At the moment and on the latest stable version of JEvents (v3.4.0RC6), delete actions on Events and their repetitions are not supported due to insufficient data being when triggering the event.
+At the moment and while using the latest stable version of JEvents at this date (v3.4.0RC6), delete actions on Events and their repetitions are not supported due to insufficient data being when triggering the event.
