@@ -75,8 +75,7 @@ class PlgLogmanJevents extends ComLogmanPluginAbstract
                     'name'     => $event->_detail->summary,
                     'metadata' => array('category' => array('id' => $event->catid, 'title' => $category_title))
                 ),
-                'verb'   => $is_new ? 'add' : 'edit',
-                'actor'  => $event->_detail->_created_by
+                'verb'   => $is_new ? 'add' : 'edit'
             ));
         }
     }
