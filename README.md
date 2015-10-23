@@ -7,18 +7,11 @@ Plugin for integrating [JEvents](https://www.jevents.net/) with LOGman. [LOGman]
 
 ### Composer
 
-You can install this package using [Composer](https://getcomposer.org/). Create a `composer.json` file inside the root directory of your Joomla! site containing the following code:
+You can install this package using [Composer](https://getcomposer.org/). by simply going to the root directory of your Joomla site using the command line and executing the following command:
 
 ```
-{
-    "require": {        
-        "joomlatools/plg_logman_jevents": "dev-master"
-    },
-    "minimum-stability": "dev"
-}
+composer require joomlatools/logman-jevents:*
 ```
-
-Run composer install.
 
 ### Package
 
@@ -53,4 +46,4 @@ The following JEvents actions are currently logged:
 
 ## Limitations
 
-Delete actions on Events and their repetitions are not supported due to insufficient data being passed to the dispatcher. Only the resource ID is passed and there is no way of grabbing the required data before the delete action takes place, i.e. no before delete events.
+At the moment and on the latest stable version of JEvents (v3.4.0RC6), delete actions on Events and their repetitions are not supported due to insufficient data being when triggering the event.
