@@ -15,7 +15,7 @@
  * @package Joomlatools\Plugin\LOGman
  */
 
-class PlgLogmanJevents extends ComLogmanPluginAbstract
+class PlgLogmanJevents extends ComLogmanPluginJoomla
 {
     /**
      * @var array Queue to make the difference between adds and edits.
