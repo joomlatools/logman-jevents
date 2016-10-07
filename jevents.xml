@@ -31,17 +31,6 @@
                 <action>trash</action>
             </actions>
         </resource>
-        <resource name="category">
-            <actions>
-                <action>add</action>
-                <action>edit</action>
-                <action>publish</action>
-                <action>unpublish</action>
-                <action>archive</action>
-                <action>trash</action>
-                <action>delete</action>
-            </actions>
-        </resource>
         <resource name="repetition">
             <actions>
                 <action>edit</action>
