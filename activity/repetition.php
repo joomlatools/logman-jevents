@@ -34,7 +34,7 @@ class PlgLogmanJeventsActivityRepetition extends ComLogmanModelEntityActivity
         $url = sprintf('option=com_jevents&task=icalrepeat.edit&cid[]=%d&evid=%d', $this->row, $metadata->event->id);
 
         $config->append(array(
-            'type' => array('url' => $url, 'find' => 'object'),
+            'type' => array('url' => array('admin' => $url), 'find' => 'object'),
             'subtype' => array('objectName' => 'event', 'object' => true)
         ));
 
@@ -48,7 +48,7 @@ class PlgLogmanJeventsActivityRepetition extends ComLogmanModelEntityActivity
         return $this->_getObject(array(
             'objectName' => $metadata->event->title,
             'find'       => 'target',
-            'url'        => 'option=com_jevents&task=icalevent.edit&cid[]=' . $metadata->event->id,
+            'url'        => array('admin' => 'option=com_jevents&task=icalevent.edit&cid[]=' . $metadata->event->id),
             'type'       => array('objectName' => 'event', 'object' => true),
             'subtype'    => array('objectName' => 'JEvent', 'object' => true)
         ));

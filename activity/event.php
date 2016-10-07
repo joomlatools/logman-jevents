@@ -28,7 +28,7 @@ class PlgLogmanJeventsActivityEvent extends ComLogmanModelEntityActivity
     protected function _objectConfig(KObjectConfig $config)
     {
         $config->append(array(
-            'url'     => 'option=com_jevents&task=icalevent.edit&cid[]=' . $this->row,
+            'url'     => array('admin' => 'option=com_jevents&task=icalevent.edit&cid[]=' . $this->row),
             'subtype' => array('object' => true, 'objectName' => 'JEvents')
         ));
 
