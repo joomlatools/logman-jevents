@@ -1,7 +1,7 @@
 
 {
   "name": "joomlatools/logman-jevents",
-  "type": "joomlatools-installer",
+  "type": "joomlatools-composer",
   "license": "GPLv3",
   "description": "Handles logging of JEvents activities",
   "keywords": [
@@ -20,6 +20,6 @@
     }
   ],
   "require": {
-    "joomlatools/installer": "*"
+    "joomlatools/composer": "*"
   }
 }
