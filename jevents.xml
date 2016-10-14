@@ -11,6 +11,8 @@
     <version>3.0.0</version>
     <description>PLG_LOGMAN_JEVENTS_DESC</description>
 
+    <scriptfile>install.php</scriptfile>
+
     <files>
         <filename plugin="jevents">jevents.php</filename>
         <folder>activity</folder>
